@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+     <title>netflix</title>
+</head>
+
+<!--header and menu-->
+<header>
+  <div class="netflix_main_logo">
+    <img class="netflix_main_logo" src="./img/netflix_main_logo.png" alt="netflix logo">
+  </div>
+  <ul class="menu">
+     <li class="menu_item active"><a href="#">Home</a></li>
+     <li class="menu_item"><a href="#">Movies</a></li>
+     <li class="menu_item"><a href="#">Series</a></li>
+     <li class="menu_item"><a href="#">My list</a></li>
+  </ul>
+  <div class="search">    
+     <form action="">
+      <input id="input_field" type="search" placeholder="search..." >
+      <i class="fas fa-search" style="color:white;"></i></button>
+     </form>
+     <button class="call_btn" type="submit"><a href="#"><i class="fas fa-bell" style="color:white;"></i></a></button>
+  </div>
+</header>
+
+<!--main section-->
+<div id="background-app"></div>
+      
+<!--movie carousel-->
+  <i class="fas fa-rocket" style="color: whitesmoke; font-size: 12px; display: inline; margin-left: 50px; margin-right: 10px;"></i><p style="font-family: Arial, Helvetica, sans-serif; font-weight: 100; color: whitesmoke; display: inline; line-height: 1.8;">Popular in Netflix</p>
+ 
+  <div class="slider">
+    <div class="sliderbox" id="sliderbox">
+      <div id="app"></div> 
+    </div>
+    <a class="switchLeft" id="switchLeft"><i class="fas fa-angle-left"></i></a>
+    <a class="switchRight" id="switchRight"><i class="fas fa-angle-right"></i></a>
+</div>
+
+<!--footer section-->
+<footer class="footer"> 
+   <div class="footer-cols">
+      <ul>
+        <li>
+          <img class="netflix_logo" src="./img/netflix_logo.png" alt="netflix logo">
+        </li>
+      </ul>  
+      <ul>
+        <li><a href="#">Sound and subtitles</a></li>
+        <li><a href="#">Media Center</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Contact with us</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Audiodescription</a></li>
+        <li><a href="#">Investor relations</a></li>
+        <li><a href="#">Legal information</a></li>
+      </ul>
+      <ul> 
+        <li><a href="#">Help center</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Cookie settings</a></li>
+      </ul>
+      <ul> 
+        <li><a href="#">Gift cards</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Information about company</a></li>
+      </ul>
+    </div> 
+ 
+    <div class="social-list">
+       <a href="#"><i class="fab fa-facebook"></i></a>
+       <a href="#"><i class="fab fa-instagram"></i></a>
+       <a href="#"><i class="fab fa-twitter"></i></a>
+       <a href="#"><i class="fab fa-youtube"></i></a>
+     </div>    
+</footer> 
+
+<script src="main.js" type="text/javascript" defer></script>
+</body>
+</html>
